@@ -1,24 +1,23 @@
-# README
+# Gossip
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Programming w/ @Thierry Kq & @Debzow
 
-Things you may want to cover:
+## Lien Heroku du projet
 
-* Ruby version
+https://heroku-gossip-td-dg.herokuapp.com/
 
-* System dependencies
+**Si vous voulez télécharger le repo, lancez**
 
-* Configuration
+```bundle install```  
+```rails db:create ```
+```rails db:migrate```
+```rails db:seed ```
 
-* Database creation
+Accès à la console pour vérifier la structure de la BDD
+```rails console```
 
-* Database initialization
 
-* How to run the test suite
+## Résumé du projet
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+**Afficher 40 users et leur gossips**  
+La gem faker été ajoutée à celles de Rails, utilisation de postgresql pour être compatible avec Heroku
